@@ -1,0 +1,50 @@
+[
+    {
+        "src": "../assets/img/FileteAngusPremiumGaleria.png",
+        "thumb": "../assets/img/FileteAngusPremiumGaleria.png",
+        "category": "carnes",
+        "title": "Filete Angus Premium"
+    },
+    {
+        "src": "../assets/img/chorizo-artesanal-galeria.png",
+        "thumb": "../assets/img/chorizo-artesanal-galeria.png",
+        "category": "embutidos",
+        "title": "Chorizos artezanales"
+    },
+    {
+        "src": "../assets/img/pollo-organico-fresco-galeria.png",
+        "thumb": "../assets/img/pollo-organico-fresco-galeria.png",
+        "category": "carnes",
+        "title": "Pollo orgánico fresco"
+    },
+    {
+        "src": "../assets/img/hamburguesa-gourmet-galeria.png",
+        "thumb": "../assets/img/hamburguesa-gourmet-galeria.png",
+        "category": "preparados",
+        "title": "hamburguesas gourmet"
+    },
+    {
+        "src": "../assets/img/equipo-de-trabajo.jpeg",
+        "thumb": "../assets/img/equipo-de-trabajo.jpeg",
+        "category": "local",
+        "title": "Nuesro equipo de trabajo"
+    },
+    {
+        "src": "../assets/img/cortes-especiales-galeria.png",
+        "thumb": "../assets/img/cortes-especiales-galeria.png",
+        "category": "carnes",
+        "title": "Cortes especiales"
+    },
+    {
+        "src": "../assets/img/variedad-embutidos-galeria.png",
+        "thumb": "../assets/img/variedad-embutidos-galeria.png",
+        "category": "embutido",
+        "title": "Variedad de embutidos"
+    },
+    {
+        "src": "../assets/img/mostrador-local-galeria.jpeg",
+        "thumb": "../assets/img/mostrador-local-galeria.jpeg",
+        "category": "local",
+        "title": "Nuestro mostrador"
+    }
+]

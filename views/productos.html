@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-UA-compatible" content="IE=edge">
+        <meta name="robots" content="valores">
+        <link rel="canonical" href="url">
+        <!-- Título de página -->
+        <title>Productos - Alimentación Rubio</title>
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="imagen/x-icon" href="../favicon.png"> 
+         <!-- Declaración de ficheros de estilos -->
+        <link rel="stylesheet" href="../css/estilos.css">
+        <!--<script defer src="../js/script.js"></script>-->
+    </head>
+    <body>
+         <header>
+             <!-- Barra de navegación -->
+            <nav class="menuprincipal">
+                <div>
+                    <img class="logo" src="../assets/img/logor.jpg" width="320" height="306" alt="Logo de Alimentación Rubio">
+                </div>
+                <!-- Botón hamburguesa (oculto en pantallas grandes)-->
+                <input type="checkbox" class="check-menu" id="check-menu">
+                <!-- Enlces de navegación -->                
+                <ul class="lista-menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="" class="activo">Productos</a>
+                    </li>
+                    <li><a href="presupuesto.html">Presupuesto</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <!--menú hamburguesa para cuando se este navegando en movil -->
+                  <label for="check-menu" class="label-check">
+                        <span class="menu-hamburguesa">
+                            <em class="linea"></em>
+                            <em class="linea"></em>
+                            <em class="linea"></em>
+                        </span>
+                    </label>
+            </nav>
+         </header>
+          <!-- Contenido -->
+        <main>
+            <!-- galeria de productos -->
+            <div class="contenido-productos">
+                <h2 class="pagina-titulo"><img class="logor" src="../assets/img/logor.jpg" alt="logo" width="1024" height="1024"> Nuestros productos</h2>
+
+                <div class="gallery">
+                    <img class="img" src="../assets/img/BrisketShumado.png" alt="Shumado 1" width="206" height="245">
+                    <img class="img" src="../assets/img/BrochetasMediterraneas.png" alt="Brochetas Mediterráneas 2" width="380" height="214">
+                    <img class="img" src="../assets/img/carne-de-wagyu.jpg" alt="Carne Wagyu 3" width="2048" height="1585">
+                    <img class="img" src="../assets/img/carneMolidaPremium.jpg" alt="Carne Molida 4" width="514" height="350">
+                    <img class="img" src="../assets/img/filetesAngus28dias.jpg" alt="Filete Angus 5" width="1100" height="1100">
+                    <img class="img" src="../assets/img/chorizoartesanal.jpg" alt="Chorizo Artesanal 6" width="800" height="800">
+                    <img class="img" src="../assets/img/polloOrganico.jpg" alt="Pollo Organico 7" width="1000" height="668">
+                    <img class="img" src="../assets/img/costilladecerdo.jpg" alt="Costillas BBQ 8" width="275" height="183">
+                    <img class="img" src="../assets/img/lomoderes.jpg" alt="Lomo de Res 9" width="275" height="183">
+                    <img class="img" src="../assets/img/hamburguesa.jpg" alt="Hamburguesa Gourmet 10" width="710" height="475">
+                    <img class="img" src="../assets/img/salchichacerdo.jpg" alt="Salchichas Artesanales 11" width="727" height="800">
+                    <img class="img" src="../assets/img/pavo.jpg" alt="Pavo 12" width="800" height="800">
+                    <img class="img" src="../assets/img/tomahawk-scaled.png" alt="Tomahawk Steak 13" width="2560" height="1707">
+                    <img class="img" src="../assets/img/salchichon-iberico.png" alt="Salchichón Ibérico 14" width="450" height="300">
+                    <img class="img" src="../assets/img/morcilla-de-arroz.png" alt="Morcilla de Arroz 15" width="570" height="570">
+                    <img class="img" src="../assets/img/PatoalOporto.png" alt="Pato al Oporto 16" width="550" height="382">
+                    <img class="img" src="../assets/img/conejo-al-ajillo.png" alt="Conejo al Ajillo 17" width="745" height="478">
+                    <img class="img" src="../assets/img/Ribeye-Dry-Aged.png" alt="Ribeye Dry Aged 18" width="386" height="228">
+                    <img class="img" src="../assets/img/Entrañas-Argentinas.png" alt="Entrañas Argentinas 19" width="399" height="301">
+                    <img class="img" src="../assets/img/Lomo-Ibérico-Bellota.png" alt="Lomo Ibérico Bellota 20" width="600" height="400">
+                    <img class="img" src="../assets/img/Fuet-Trufado.png" alt="Fuet Trufado 21" width="600" height="419">
+                    <img class="img" src="../assets/img/Pichón-de-Corral.png" alt="Pichón de Corral 22" width="304" height="251">
+                    <img class="img" src="../assets/img/Codorniz-Rellena.png" alt="Codorniz Rellena 23" width="640" height="480">
+                    <img class="img" src="../assets/img/Carreillera-alVinoTinto.png" alt="Carreillera al Vino Tinto 2" width="640" height="480">
+                    
+                </div>
+
+                <!-- Lightbox -->
+
+                <div class="lightbox" id="lightbox">
+                    <span class="close" id="close">&times;</span>
+                    <span class="nav prev" id="prev">&#10094;</span>
+                    <img id="lightbox-img" src="../assets/img/" alt="Imagen ampliada">
+                    <span class="nav next" id="next">&#10095;</span>
+                </div>
+            </div>
+        </main>
+         <!-- Pie de página, acceso a redes sociales y aviso legal -->
+        <footer id="pielogo">
+            <div>
+                <section class="seccionpie">
+                     <h1><img class="logo1" src="../assets/img/redsocial.png" width="512" height="512" alt="logo red social">Redes Sociales:</h1>
+                    <div id="redes">
+                        <a href="https://www.tiktok.com/" target="_blank"><img class="logo1" src="../assets/img/logoTiktok.jpg" width="225" height="225" alt="logo tiktok"></a>
+                        <a href="https://www.x.com/" target="_blank"><img class="logo1" src="../assets/img/logox.jpg" width="284" height="177" alt="logo x"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img class="logo1" src="../assets/img/fblogo.jpg" width="360" height="360" alt="logo facebook"></a>
+                        <a href="https://www.gmail.com/" target="_blank"><img class="logo1" src="../assets/img/gmail-logo.jpg" width="200" height="200" alt="logo gmail"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="logo1" src="../assets/img/logoInstagram.jpg" width="360" height="360" alt="logo instagram"></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"><img class="logo1" src="../assets/img/logoWhatsApp.jpg" width="640" height="640" alt="logo whatsapp"></a>
+                    </div>
+                </section>
+                <section class="seccionpie">
+                    <h1 id="h1">Alimentación Rubio:</h1>
+                    <div class="dinalogo">
+                        <p><a href="contacto.html"><img class="logor" src="../assets/img/logor.jpg" width="320" height="306" alt="Logo Alimentación Rubio"></a></p>
+                    </div>     
+                </section>
+                <aside class="seccionpie">
+                    <address>Calle: Alcalde Luis Torrejón 4, 28990, Torrejón de Velasco,(Comunidad Madrid, España)</address>
+                    <small>&Copy; Derechos Reservados 2025</small>
+                </aside>
+            </div>
+        </footer>
+
+        <script src="../js/productos.js"></script>
+    </body>
+</html>

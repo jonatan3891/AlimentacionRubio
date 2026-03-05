@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Configuración -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-UA-compatible" content="IE=edge">
+        <meta name="robots" content="valores">
+        <link rel="canonical" href="url">
+        <!-- Título de página web -->
+         <title>Alimentación Rubio </title>
+         <!-- Favicon -->
+        <link rel="shortcut icon" type="imagen/x-icon" href="favicon.png"><!-- Se coloca los simbolos al final por si no carga bien el favicon-->
+        <!-- Declaración de fichero de estilos -->
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <!-- Encabezado -->
+        <header>
+            <!-- Navbar básico -->
+            <nav class="menuprincipal">
+                <div>
+                    <a href="index.html"><img class="logo" src="assets/img/logor.jpg" width="1024" height="1024" alt="Logo de Alimentación Rubio"></a>
+                </div>
+                <!-- Botón hamburguesa (oculto en pantallas grandes)-->
+                <input type="checkbox" class="check-menu" id="check-menu">
+                <!-- Enlaces de navegación -->
+                    <ul class="lista-menu">
+                        <li><a href="index.html" class="activo">Inicio</a></li>
+                        <li><a href="./views/productos.html">🥩Productos</a></li>
+                        <li><a href="./views/presupuesto.html">✍🏻Presupuesto</a></li>
+                        <li><a href="./views/contacto.html">👨🏻Contacto</a></li>
+                    </ul>
+                    <!--menú hamburguesa para cuando se este navegando en movil -->
+                   <label for="check-menu" class="label-check">
+                        <span class="menu-hamburguesa">
+                            <em class="linea"></em>
+                            <em class="linea"></em>
+                            <em class="linea"></em>
+                        </span>
+                    </label>
+            </nav>
+        </header> 
+        <!-- Contenido -->
+        <main>
+            <div id="hero">
+                <img class="logor" src="./assets/img/logor.jpg" width="1024" height="1024" alt="Logo Alimentación Rubio">
+                <h2>La mejor carne de la región</h2>
+                <p>Carne de Galicia y Torrejón de Velasco, Vaca Cántabra Madurada</p>
+            </div>
+            <div class="contenido">
+                <!-- sección 1: sobre nosotros -->
+                <section class="section">
+                        <h2>Nuestra Carnicería</h2>
+                        <p>En la carnicería Rubio con más de 30 años ofreciendo los mejores productos cárnicos frescos y de calidad. Nos enorgullecemos de ofrecer solo los mejores cortes de carne, Selecionados cuidadosamente y madurados a la perfección. Con más de 35 años de experiencia, mantenemos los estándares más altos de calidad.</p>
+                        <p>Nuestros poveedores son granjas locales que practican la crianza ética y sostenible, garantizando carnes jugosas, y de excelente textura</p>
+                </section>
+                <!-- sección 2: Productos destacados-->
+                <section class="section">
+                    <h2>Productos Destacados</h2>
+                        <div class="product">
+                            <div class="product-item">
+                                <img src="./assets/img/filetesAngus28dias.jpg" width="1100" height="1100" alt="Filete de res">
+                                <h3>Filete Angus</h3>
+                                <p>Certificado Black Angus, 28 días de madurtación </p>
+                            </div>
+                            <div class="product-item">
+                                <img src="/assets/img/chorizoartesanal.jpg" width="800" height="800" alt="Chorizo artesanal">
+                                <h3>Chorizo Artesanal</h3>
+                                <p>elaborado con receta familiar y especias selectas</p>                
+                            </div>
+                            <div class="product-item">
+                                <img src="assets/img/polloOrganico.jpg" width="1000" height="668" alt="pollo orgánico">
+                                <h3>Pollo Orgánico</h3>
+                                <p>Criado en libertad, sin hormonas ni antibióticos</p>
+                            </div>
+                        </div>
+                </section>
+                <section class="section">
+                    
+                     <!-- Sección 3:  Noticias (se carga desde JSON) -->
+                    <h2>Noticias y Novedades</h2>
+                    <div id="noticias-contenedor" class="noticias-contenedor">
+                        <!-- Las noticias se cargarán aquí dinámicamente -->
+                        <p>Cargando noticias.......</p>
+                    </div>
+                </section>
+
+                <!--<section class="section-noticia-dinamico"></section>-->
+
+                <section class="section">
+                    <h2>Visítanos</h2>
+                    <div id="horario">
+                        <div class="horario-item">
+                            <h3>Horario de atención</h3>
+                            <p>Lunes a Viernes : 8:00 - 14:00 y 17:00 - 20:00</p>
+                            <p>Sábados: 8:00 - 15:00</p>
+                            <p>Domingos: Cerrado</p>
+                        </div>
+                        <div class="horario-item">
+                            <h3>Contato</h3>
+                            <p>Calle Alcalde Luis Torrejón, 4</p>
+                            <p>TElefono: 637306465</p>
+                            <p>Email: info@AlimentacionRubio.com</p>
+                            <a href="/views/contacto.html" id="btn">Cómo llegar</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <!-- Pie de página, acceso a redes sociales y aviso legal -->
+        <footer id="pielogo">
+            <div>
+                <section class="seccionpie">
+                    <h1><img class="logo1" src="assets/img/redsocial.png" width="512" height="512" alt="logo red social">Redes Sociales:</h1>
+                    <div id="redes">
+                        <a href="https://www.tiktok.com/" target="_blank"><img class="logo1" src="../assets/img/logoTiktok.jpg" width="225" height="225" alt="logo tiktok"></a>
+                        <a href="https://www.x.com/" target="_blank"><img class="logo1" src="assets/img/logox.jpg" width="284" height="177" alt="logo x"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img class="logo1" src="assets/img/fblogo.jpg" width="360" height="360" alt="logo facebook"></a>
+                        <a href="https://www.gmail.com/" target="_blank"><img class="logo1" src="assets/img/gmail-logo.jpg" width="200" height="200" alt="logo gmail"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="logo1" src="assets/img/logoInstagram.jpg" width="360" height="360" alt="logo instagram"></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"><img class="logo1" src="assets/img/logoWhatsApp.jpg" width="640" height="640" alt="logo whatsapp"></a>
+                    </div>
+                </section>
+                <section class="seccionpie">
+                    <h1 id="h1">Alimentación Rubio:</h1>
+                    <div class="dinalogo">
+                        <p><a href="contacto.html"><img class="logor" src="./assets/img/logor.jpg" width="320" height="306" alt="Logo Alimentación Rubio"></a></p>
+                    </div>     
+                </section>
+                <aside class="seccionpie">
+                    <address>Calle: Alcalde Luis Torrejón,4, 28990, Torrejón de Velasco,(Comunidad Madrid, España)</address>
+                    <p>&copy; Derechos Reservados 2025</p>
+                </aside>
+            </div>
+        </footer>
+
+        <script defer src="js/noticias.js"></script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "fecha": "15 de julio, 2025",
+        "titulo": "Nueva promoció en carnes premium",
+        "contenido": "La carnicería Rubio aprovecha el 20% de descuento en lomo alto y entrecot.",
+        "imagen": "../assets/img/carnepremium.jpg"
+    },
+    {
+        "fecha": "30 de julio, 2025",
+        "titulo": "¡Abrimos nuevo local!",
+        "contenido": "La Carnicería Rubio ahora también en el pueblo Carranque. ¡Ven a conocernos!",
+        "imagen": "../assets/img/nuevolocal.jpg"
+    },
+    {
+        "fecha": "1 de julio , 2025",
+        "titulo": "Productos de granja recién llegado",
+        "contenido": "Recién traído del campo: pollo de corral, huevos frescos y más.",
+        "imagen": "../assets/img/pollocorral.jpg" 
+    },
+    {
+        "fecha": "30 de junio, 2025",
+        "titulo": "Nueva llegada de carne Wagyu",
+        "contenido": "Esta semana recibimos un lote limitado de auténtica carna Wagyu japonesa. Ven a probar este manjar considerado lamejor carne del mundo",
+        "imagen": "../assets/img/carne-de-wagyu.jpg"
+    },
+    {
+        "fecha": "10 de julio, 2025",
+        "titulo": "Taller de cortes de carne",
+        "contenido": "Este sábado realizaremos un taller gratuito  sobre cómo cortar diferentes piezas de carne. Aprende técnicas profecionales.",
+        "imagen": "../assets/img/tallerdecortedecarne.jpg"
+    },
+    {
+        "fecha": "1 de julio, 2025",
+        "titulo": "Promociones del mes",
+        "contenido": "Durante todo julio, compra 1kg de carne molida premium ylleva 500g gratis. Aprovecha esta oferta especial.",
+        "imagen": "../assets/img/carneMolidaPremium.jpg"
+    }
+]

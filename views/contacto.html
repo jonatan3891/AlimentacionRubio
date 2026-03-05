@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-UA-compatible" content="IE=edge">
+        <meta name="robots" content="valores">
+        <link rel="canonical" href="url">
+        <title>Contacto - Alimentación Rubio </title>
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""> 
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="imagen/x-icon" href="../favicon.png">
+         <!-- Decalración de fichero de estilos -->
+         <link rel="stylesheet" href="../css/estilos.css">
+
+    </head>
+    <body>
+        <!-- cabecera -->
+        <header>
+            <!-- menu principal-->
+            <nav class="menuprincipal">
+                <div>
+                    <img class="logo" src="../assets/img/logor.jpg" width="1024" height="1024" alt="Logo de Alimentación Rubio">
+                </div>
+                    <!-- Botón hamburguesa (oculto en pantallas grandes)-->
+                    <input type="checkbox" class="check-menu" id="check-menu">
+                    <!-- Enlaces de navegación -->
+                    <ul class="lista-menu">
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="productos.html">🥩Productos</a>
+                        </li>
+                        <li><a href="presupuesto.html">✍🏻Presupuesto</a></li>
+                        <li><a href="contacto.html" class="activo">👨🏻Contacto</a></li>
+                    </ul>
+                    <!--menú hamburguesa para cuando se este navegando en movil -->
+                  <label for="check-menu" class="label-check">
+                        <span class="menu-hamburguesa">
+                            <em class="linea"></em>
+                            <em class="linea"></em>
+                            <em class="linea"></em>
+                        </span>
+                  </label>
+            </nav>
+        </header>
+        <main>
+            <h1>Contáctanos</h1>
+            <!-- Información de contacto -->
+            <div class="contact-info">
+                <p><strong>Alimentación Rubio</strong></p>
+                <p>📍 Dirección: Alcalde Luis Torrejón 4, Torrejón de Velasco (Madird)</p>
+                <p>📞 Teléfono: (+34) 637 30 64 65</p>
+                <p>📨 Correo: alimentacionrubio@gamil.com</p>
+                <button id="btn-ruta">¿Cómo llegar?</button>
+            </div>
+
+             <!-- Contenedor del mapa -->
+            <div class="container-map">
+                <div id="map"></div>
+            </div>
+        </main>
+         <!-- Pie de página, acceso a redes sociales y aviso legal -->
+        <footer id="pielogo">
+            <div>
+                <section class="seccionpie">
+                    <h2><img class="logo1" src="../assets/img/redsocial.png" width="512" height="512" alt="logo red social">Redes Sociales:</h2>
+                    <div id="redes">
+                        <a href="https://www.tiktok.com/" target="_blank"><img class="logo1" src="../assets/img/logoTiktok.jpg" width="225" height="225" alt="logo tiktok"></a>
+                        <a href="https://www.x.com/" target="_blank"><img class="logo1" src="../assets/img/logox.jpg" width="284" height="177" alt="logo x"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img class="logo1" src="../assets/img/fblogo.jpg" width="360" height="360" alt="logo facebook"></a>
+                        <a href="https://www.gmail.com/" target="_blank"><img class="logo1" src="../assets/img/gmail-logo.jpg" width="200" height="200" alt="logo gmail"></a>
+                        <a href="https://www.instagram.com/" target="_blank"><img class="logo1" src="../assets/img/logoInstagram.jpg" width="360" height="360" alt="logo instagram"></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"><img class="logo1" src="../assets/img/logoWhatsApp.jpg" width="640" height="640" alt="logo whatsapp"></a>
+                    </div>
+                </section>
+                <section class="seccionpie">
+                    <h2 id="h1">Alimentación Rubio:</h2>
+                    <div class="dinalogo">
+                        <p><a href="contacto.html"><img class="logor" src="../assets/img/logor.jpg" width="320" height="306" alt="Logo Alimentación Rubio"></a></p>
+                    </div>     
+                </section>
+                <aside class="seccionpie">
+                    <address>Calle: Alcalde Luis Torrejón,4, 28990, Torrejón de Velasco,(Comunidad Madrid, España)</address>
+                    <small>&Copy; Derechos Reservados 2025</small>
+                </aside>
+            </div>
+        </footer>
+        
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+        <script defer src="../js/contacto.js"></script>
+
+    </body>
+</html>
