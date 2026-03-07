@@ -7,7 +7,7 @@
         "descripcion": "Certificado Black Angus, 28 días de maduración, jugoso y tierno.",
         "precio": "24.99",
         "precio_kilo": "49.99",
-        "imagen": "../assets/img/filetesAngus28días.jpg",
+        "imagen": "../assets/img/filetesAngus28días.png",
         "stock": "true",
         "mas vendido": "true"
     },
@@ -19,7 +19,7 @@
         "descripcion": "Elaborado con receta familiar, especias selectas y carne de cerdo premium.",
         "precio": "8.99",
         "precio_kilo": "17.99",
-        "imagen": "../assets/img/chorizoartesanal.jpg",
+        "imagen": "../assets/img/chorizoartesanal.png",
         "stock": "true",
         "destacado": "true"
     },
@@ -31,7 +31,7 @@
         "descripcion": "Criado en libertad, sin hormonas ni antibiótico, pechuga deshuesada.",
         "precio": "12.99",
         "precio_kilo": "15.99",
-        "imagen": "../assets/img/polloOrganico.jpg",
+        "imagen": "../assets/img/polloOrganico.png",
         "stock": "true",
         "destacado": "true" 
     },
@@ -43,7 +43,7 @@
         "descripcion": "Costillas de cerdo marinadas en nuestra salsa BBQ secreta, lista para asar.",
         "precio": "18.99",
         "precio_kilo": "22.99",
-        "imagen": "../assets/img/costilladecerdo.jpg",
+        "imagen": "../assets/img/costilladecerdo.png",
         "stock": "true",
         "destacado": "true"
     },
@@ -55,7 +55,7 @@
         "descripcion": "Corte magro y tierno, perfecto para bistec o carne mechada.",
         "precio": "21.99",
         "precio_kilo": "43.99",
-        "imagen": "../assets/img/lomoderes.jpg",
+        "imagen": "../assets/img/lomoderes.png",
         "stock": "true",
         "destacado": "true"
     },
@@ -67,7 +67,7 @@
         "descripcion": "Pack de 4 hamburguesas 150g cada una, mezcla de res y cerdo con especias.",
         "precio": "14.99",
         "precio_kilo": "24.99",
-        "imagen": "../assets/img/hamburguesa.jpg",
+        "imagen": "../assets/img/hamburguesa.png",
         "stock": "true",
         "destacado": "true"
     },
@@ -79,7 +79,7 @@
         "descripcion": "Mezcla 80/20 (carne/grasa), ideal para albóndigas, pastel de carne o tacos.",
         "precio": "16.99",
         "precio_kilo": "33.99",
-        "imagen": "../assets/img/carneMolidaPremium.jpg",
+        "imagen": "../assets/img/carneMolidaPremium.png",
         "stock": "true",
         "destacado": "true"
     },
@@ -91,7 +91,7 @@
         "descripcion": "Salchichas tipo Frankfurt elaboradas con carne de cerdo selecta y especias.",
         "precio": "7.99",
         "precio_kilo": "15.99",
-        "imagen": "../assets/img/salchichacerdo.jpg",
+        "imagen": "../assets/img/salchichacerdo.png",
         "stock": "true",
         "destacado": "false"
     },
@@ -103,7 +103,7 @@
         "descripcion": "Criado en libertad, sin hormonas ni antibiótico, pechuga deshuesada.",
         "precio": "15.99",
         "precio_kilo": "18.99",
-        "imagen": "../assets/img/pavo.jpg",
+        "imagen": "../assets/img/pavo.png",
         "stock": "true",
         "destacado": "true"
     },
