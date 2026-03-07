@@ -25,7 +25,7 @@
     },
     {
         "src": "../assets/img/equipo-de-trabajo.jpeg",
-        "thumb": "../assets/img/equipo-de-trabajo.jpeg",
+        "thumb": "../assets/img/equipo-de-trabajo.png",
         "category": "local",
         "title": "Nuesro equipo de trabajo"
     },
@@ -43,7 +43,7 @@
     },
     {
         "src": "../assets/img/mostrador-local-galeria.jpeg",
-        "thumb": "../assets/img/mostrador-local-galeria.jpeg",
+        "thumb": "../assets/img/mostrador-local-galeria.png",
         "category": "local",
         "title": "Nuestro mostrador"
     }
