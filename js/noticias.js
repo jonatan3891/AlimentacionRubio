@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
        .then(response => response.json())
        .then(data => {
             console.log(data);
-           // const noticiasContenedor = document.getElementById('noticias-contenedor');
             noticiasContenedor.innerHTML = '';
 
             data.forEach(noticia => {
